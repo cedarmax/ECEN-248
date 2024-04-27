@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab9.srcs/sources_1/new/carry_lookahead_4bit.v" \
+"../../../../../Documents/TAMU/ECEN 248/Lab/Lab 5/248NeededFiles/248NeededFiles/cla_4bit_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

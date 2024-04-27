@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cedar/lab10/lab10.srcs/sources_1/new/combination_lock_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combination_lock_fsm
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'state' is not allowed [/home/cedar/lab10/lab10.srcs/sources_1/new/combination_lock_fsm.v:43]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cedar/lab10/combination_lock_fsm_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module combination_lock_fsm_tb

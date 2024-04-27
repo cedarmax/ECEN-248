@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov 11 11:04:02 2020
+# Process ID: 75790
+# Current directory: /home/cedar/lab10/lab10.runs/impl_1
+# Command line: vivado -log combination_lock.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source combination_lock.tcl -notrace
+# Log file: /home/cedar/lab10/lab10.runs/impl_1/combination_lock.vdi
+# Journal file: /home/cedar/lab10/lab10.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source combination_lock.tcl -notrace

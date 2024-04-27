@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct 14 11:16:42 2020
+# Process ID: 9952
+# Current directory: C:/Users/Cedar/lab6_test/lab6_test.runs/synth_1
+# Command line: vivado.exe -log two_four_decoder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source two_four_decoder.tcl
+# Log file: C:/Users/Cedar/lab6_test/lab6_test.runs/synth_1/two_four_decoder.vds
+# Journal file: C:/Users/Cedar/lab6_test/lab6_test.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source two_four_decoder.tcl -notrace

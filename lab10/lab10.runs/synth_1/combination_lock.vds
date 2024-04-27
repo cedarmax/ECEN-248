@@ -1,0 +1,316 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov 11 11:02:40 2020
+# Process ID: 75477
+# Current directory: /home/cedar/lab10/lab10.runs/synth_1
+# Command line: vivado -log combination_lock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source combination_lock.tcl
+# Log file: /home/cedar/lab10/lab10.runs/synth_1/combination_lock.vds
+# Journal file: /home/cedar/lab10/lab10.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source combination_lock.tcl -notrace
+Command: synth_design -top combination_lock -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 75499 
+WARNING: [Synth 8-2611] redeclaration of ansi port state is not allowed [/home/cedar/lab10/lab10.srcs/sources_1/new/combination_lock_fsm.v:43]
+WARNING: [Synth 8-976] state has already been declared [/home/cedar/lab10/lab10.srcs/sources_1/new/combination_lock_fsm.v:43]
+WARNING: [Synth 8-2654] second declaration of state ignored [/home/cedar/lab10/lab10.srcs/sources_1/new/combination_lock_fsm.v:43]
+INFO: [Synth 8-994] state is declared here [/home/cedar/lab10/lab10.srcs/sources_1/new/combination_lock_fsm.v:26]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1343.379 ; gain = 0.000 ; free physical = 202 ; free virtual = 4645
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'combination_lock' [/home/cedar/lab10/combination_lock.v:5]
+INFO: [Synth 8-6157] synthesizing module 'synchronizer' [/home/cedar/lab10/synchronizer.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'synchronizer' (1#1) [/home/cedar/lab10/synchronizer.v:9]
+INFO: [Synth 8-6157] synthesizing module 'combination_lock_fsm' [/home/cedar/lab10/lab10.srcs/sources_1/new/combination_lock_fsm.v:23]
+	Parameter S0 bound to: 2'b00 
+	Parameter S1 bound to: 2'b01 
+	Parameter S2 bound to: 2'b10 
+	Parameter S3 bound to: 2'b11 
+INFO: [Synth 8-226] default block is never used [/home/cedar/lab10/lab10.srcs/sources_1/new/combination_lock_fsm.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'combination_lock_fsm' (2#1) [/home/cedar/lab10/lab10.srcs/sources_1/new/combination_lock_fsm.v:23]
+WARNING: [Synth 8-689] width (3) of port connection 'state' does not match port width (2) of module 'combination_lock_fsm' [/home/cedar/lab10/combination_lock.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'combination_lock' (3#1) [/home/cedar/lab10/combination_lock.v:5]
+WARNING: [Synth 8-3917] design combination_lock has port JB[2] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1357.270 ; gain = 13.891 ; free physical = 219 ; free virtual = 4664
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1357.270 ; gain = 13.891 ; free physical = 218 ; free virtual = 4663
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1357.270 ; gain = 13.891 ; free physical = 218 ; free virtual = 4663
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/cedar/lab10/combination_lock.xdc]
+Finished Parsing XDC File [/home/cedar/lab10/combination_lock.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/cedar/lab10/combination_lock.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/combination_lock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/combination_lock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1695.934 ; gain = 0.000 ; free physical = 145 ; free virtual = 4442
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1695.934 ; gain = 0.000 ; free physical = 145 ; free virtual = 4442
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1695.934 ; gain = 0.000 ; free physical = 145 ; free virtual = 4442
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1695.934 ; gain = 0.000 ; free physical = 145 ; free virtual = 4442
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 209 ; free virtual = 4506
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 209 ; free virtual = 4506
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 210 ; free virtual = 4508
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'combination_lock_fsm'
+INFO: [Synth 8-5544] ROM "Lock" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextState" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextState" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nextState" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      S0 |                             0001 |                               00
+                      S1 |                             0010 |                               01
+                      S2 |                             0100 |                               10
+                      S3 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'combination_lock_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 201 ; free virtual = 4498
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   4 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module synchronizer 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module combination_lock_fsm 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 6     
+	   4 Input      2 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design combination_lock has port JB[2] driven by constant 0
+WARNING: [Synth 8-3331] design combination_lock has unconnected port Key2
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 188 ; free virtual = 4490
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 169 ; free virtual = 4391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 166 ; free virtual = 4389
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 167 ; free virtual = 4390
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 167 ; free virtual = 4390
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 167 ; free virtual = 4390
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 167 ; free virtual = 4390
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 167 ; free virtual = 4390
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 167 ; free virtual = 4390
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 167 ; free virtual = 4390
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     2|
+|3     |LUT3 |     1|
+|4     |LUT4 |     5|
+|5     |LUT6 |     1|
+|6     |FDRE |     9|
+|7     |FDSE |     1|
+|8     |IBUF |     7|
+|9     |OBUF |     7|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+---------------------+------+
+|      |Instance |Module               |Cells |
++------+---------+---------------------+------+
+|1     |top      |                     |    34|
+|2     |  syncA  |synchronizer         |     3|
+|3     |  syncC  |synchronizer_0       |     3|
+|4     |  U1     |combination_lock_fsm |    13|
++------+---------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 167 ; free virtual = 4390
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1695.934 ; gain = 13.891 ; free physical = 226 ; free virtual = 4448
+Synthesis Optimization Complete : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1695.934 ; gain = 352.555 ; free physical = 226 ; free virtual = 4448
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1711.949 ; gain = 0.000 ; free physical = 142 ; free virtual = 4360
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1711.949 ; gain = 368.680 ; free physical = 196 ; free virtual = 4415
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1711.949 ; gain = 0.000 ; free physical = 196 ; free virtual = 4415
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/cedar/lab10/lab10.runs/synth_1/combination_lock.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file combination_lock_utilization_synth.rpt -pb combination_lock_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 11 11:03:16 2020...

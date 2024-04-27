@@ -1,0 +1,11 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/Cedar/AppData/Roaming/Xilinx/Vivado/lab6/two_one_mux_behavioral.v,1602686183,verilog,,C:/Users/Cedar/AppData/Roaming/Xilinx/Vivado/lab6/two_one_mux_tb.v,,two_one_mux_behavioral,,,,,,,,
+C:/Users/Cedar/AppData/Roaming/Xilinx/Vivado/lab6/two_one_mux_tb.v,1602683681,verilog,,,,two_one_mux_tb,,,,,,,,
+C:/Users/Cedar/lab6_test/four_bit_mux_behavioral.v,1602687526,verilog,,C:/Users/Cedar/lab6_test/four_bit_mux_tb.v,,four_bit_mux,,,,,,,,
+C:/Users/Cedar/lab6_test/four_bit_mux_tb.v,1597869744,verilog,,,,four_bit_mux_tb,,,,,,,,
+C:/Users/Cedar/lab6_test/lab6_test.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/Cedar/lab6_test/lab6_test.srcs/sources_1/new/two_four_decoder.v,1602691829,verilog,,C:/Users/Cedar/lab6_test/two_four_decoder_tb.v,,two_four_decoder,,,,,,,,
+C:/Users/Cedar/lab6_test/two_four_decoder_tb.v,1597869744,verilog,,,,two_four_decoder_tb,,,,,,,,

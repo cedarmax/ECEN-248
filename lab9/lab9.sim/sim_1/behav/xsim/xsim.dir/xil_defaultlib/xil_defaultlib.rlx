@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/cedar/Documents/TAMU/ECEN 248/Lab/Lab 5/248NeededFiles/248NeededFiles/cla_16bit_tb.v,1597851742,verilog,,,,cla_16bit_tb,,,,,,,,
+/home/cedar/Documents/TAMU/ECEN 248/Lab/Lab 5/248NeededFiles/248NeededFiles/cla_4bit_tb.v,1597851744,verilog,,,,cla_4bit_tb,,,,,,,,
+/home/cedar/lab9/lab9.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+/home/cedar/lab9/lab9.srcs/sources_1/new/carry_lookahead_4bit.v,1604508884,verilog,,/home/cedar/Documents/TAMU/ECEN 248/Lab/Lab 5/248NeededFiles/248NeededFiles/cla_4bit_tb.v,,carry_lookahead_4bit;carry_lookahead_unit;generate_propagate_unit;summation_unit,,,,,,,,

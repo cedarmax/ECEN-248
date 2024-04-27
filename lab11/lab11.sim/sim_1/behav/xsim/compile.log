@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cedar/lab11/lab11.srcs/sources_1/new/tlc_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tlc_fsm
+INFO: [VRFC 10-311] analyzing module synchronizer
+INFO: [VRFC 10-311] analyzing module tlc_controller
