@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/c/cedarmaxwell/lab7/lab7.srcs/sources_1/new/sr_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_latch
+ERROR: [VRFC 10-1412] syntax error near nand [/home/ugrads/c/cedarmaxwell/lab7/lab7.srcs/sources_1/new/sr_latch.v:33]
+ERROR: [VRFC 10-1412] syntax error near nand [/home/ugrads/c/cedarmaxwell/lab7/lab7.srcs/sources_1/new/sr_latch.v:34]
+ERROR: [VRFC 10-1040] module sr_latch ignored due to previous errors [/home/ugrads/c/cedarmaxwell/lab7/lab7.srcs/sources_1/new/sr_latch.v:23]

@@ -1,0 +1,15 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/d_flip_flop_behavioral_tb.v,1629937538,verilog,,,,d_flip_flop_behavioral_tb,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/d_flip_flop_tb.v,1629937538,verilog,,,,d_flip_flop_tb,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/d_latch_behavioral_tb.v,1629937538,verilog,,,,d_latch_behavioral_tb,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/d_latch_tb.v,1629937538,verilog,,,,d_latch_tb,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/lab7.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/lab7.srcs/sources_1/new/d_flip_flop.v,1635390553,verilog,,/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/lab7.srcs/sources_1/new/d_latch.v,/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/lab7.srcs/sources_1/new/d_latch.v,d_flip_flop,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/lab7.srcs/sources_1/new/d_flip_flop_behavioral.v,1635393421,verilog,,/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/d_flip_flop_behavioral_tb.v,,d_flip_flop_behavioral,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/lab7.srcs/sources_1/new/d_latch.v,1635364631,verilog,,/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/d_flip_flop_tb.v,,d_latch,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/lab7.srcs/sources_1/new/d_latch_behavioral.v,1635393274,verilog,,/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/d_latch_behavioral_tb.v,,d_latch_behavioral,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/lab7.srcs/sources_1/new/sr_latch.v,1635377132,verilog,,/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/sr_latch_tb.v,,sr_latch,,,,,,,,
+/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/sr_latch_tb.v,1629937538,verilog,,,,sr_latch_tb,,,,,,,,

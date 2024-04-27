@@ -1,0 +1,13 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /home/cedar/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto fb5eb8cc9eea41ea8e1e9e58e7c2ea48 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot d_latch_behavioral_tb_behav xil_defaultlib.d_latch_behavioral_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.d_latch_behavioral
+Compiling module xil_defaultlib.d_latch_behavioral_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot d_latch_behavioral_tb_behav

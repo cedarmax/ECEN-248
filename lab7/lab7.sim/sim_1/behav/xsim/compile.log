@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/lab7.srcs/sources_1/new/d_latch_behavioral.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_latch_behavioral
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/cedar/Documents/School/TAMU/2021/Autumn/ECEN 248/Laboratory Material/Lab 7/lab7/d_latch_behavioral_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_latch_behavioral_tb
